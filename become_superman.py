@@ -15,7 +15,7 @@ window.configure(background='red')
 Tkinter.Label(window, text="EXERCISE!!!", font=("Comic Sans MS", 350), background="red", fg="blue").pack(expand="YES")
 
 def countDown():
-	sleep = 10
+	sleep = 3600
 	while sleep > 0:
 		print str(sleep) + " seconds left"
 		sleep = sleep - 1
@@ -26,7 +26,7 @@ def countDown():
 def closeWindow(event):
 	window.withdraw()
 
-	if time.time() - openTime[0] < 5:
+	if time.time() - openTime[0] < 20:
 		print str(time.time() - openTime[0])
 		print "you didn't exercise long enough!!!"
 		time.sleep(2)
