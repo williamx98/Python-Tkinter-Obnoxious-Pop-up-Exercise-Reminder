@@ -1,4 +1,4 @@
-# Python Tkinter Exercise Reminder
+# Python Tkinter Obnoxious Pop-up Exercise Reminder
 This is a Python Tkinter GUI program that obnoxiously annoys you until you workout for at least 20 seconds every hour
 
 Time spent: **1.5** hours spent in total
