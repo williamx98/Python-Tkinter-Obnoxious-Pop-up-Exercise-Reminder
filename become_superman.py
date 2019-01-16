@@ -26,11 +26,12 @@ def countDown():
 def closeWindow(event):
 	window.withdraw()
 
-	if time.time() - openTime[0] < 20:
+	if time.time() - openTime[0] < 5:
 		print str(time.time() - openTime[0])
-		print "you didn't do anything!!!"
+		print "you didn't exercise long enough!!!"
 		time.sleep(2)
 	else:
+		print "good job. get back to work"
 		countDown()
 	
 	openTime[0] = time.time()
